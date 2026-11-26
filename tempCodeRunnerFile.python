@@ -1,0 +1,30 @@
+name="riti"
+age=27
+status="taken"
+print(type(name))
+print(type(age))
+love= True
+print(type(love))
+a=12
+b=31
+list1=[1,2,3]
+list2=[1,2,1]
+copy_list2 = list2.copy()
+copy_list2.reverse()
+if (list2==copy_list2):
+    print("it is a palindrome")
+else:
+    print("it is not a palindrome")
+
+
+grade=("c","b","a","c","b","b","a")
+print(grade.count("b"))
+
+info = {"name": "riti", "age": 22}
+info["name"] = "lia"
+info["surname"]="goel"
+print(info)
+
+student ={"name":"riti",
+          "score" : {"chem":98,"math":99,"phy":90}}
+print(student["score"]["phy"])

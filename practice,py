@@ -1,0 +1,22 @@
+print("hello world")
+name=input("enter your name:")
+his_name=input("enter his name:")
+if(his_name=="dhruv"):
+ print("he is a cheater ")
+if(his_name=="aditya"):
+ print("he is ur friend")
+else:
+ print("give a chance")
+his_age = int(input("enter his age:"))
+her_age = int(input("enter her age:"))
+if his_age <= 17:
+ print("he is a kid")
+if his_age >= 24:
+  print("too old for you")
+if his_age >= 18 and his_age <= 23:
+ print("he is perfect for you")
+ if her_age >=25:
+  print("girl focus on money")
+  
+   
+ 

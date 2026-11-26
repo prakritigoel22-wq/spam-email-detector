@@ -1,0 +1,1 @@
+"https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip"
